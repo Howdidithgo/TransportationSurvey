@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Transportation Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+          <h2>Transportation Survey</h2>
+<!-- this is work questions -->
+      </div>
+      <form id="questionset1">
+        <div class="form-group">
+          <p>In the past year I have use one the the following mode of transportation to travel to work or school:</p>
+          <input type="checkbox" name="work-transportaion" value="bike">Ride a bike<br>
+          <input type="checkbox" name="work-transportaion" value="car">Drive a car<br>
+          <input type="checkbox" name="work-transportaion" value="train">Take a train<br>
+          <input type="checkbox" name="work-transportaion" value="bus">Hopped on a bus<br>
+          <input type="checkbox" name="work-transportaion" value="carpool">Caught a ride in a carpool<br>
+        </div>
+<!-- this is for fun questions -->
+        <div class="form-group">
+          <p>In the past year I have use one the the following mode of transportation to travel to things you like:</p>
+          <input type="checkbox" name="fun-transportaion" value="bike">Ride a bike<br>
+          <input type="checkbox" name="fun-transportaion" value="car">Drive a car<br>
+          <input type="checkbox" name="fun-transportaion" value="train">Take a train<br>
+          <input type="checkbox" name="fun-transportaion" value="bus">Hopped on a bus<br>
+          <input type="checkbox" name="fun-transportaion" value="carpool">Caught a ride in a carpool<br>
+        </div>
+
+          <button type="submit">submit</button>
+      </form>
+
+      <!-- this is the work responce -->
+      <span id="results">
+        <p><b>You used these following mode of transportation to travel.</b></p>
+      </span>
+<!-- this is the for fun responce -->
+<span id="fun-results">
+  <p><b>You used these following mode of transportation to travel.</b></p>
+</span>
+
+    </div>
+  </body>
+</html>
